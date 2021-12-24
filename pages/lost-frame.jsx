@@ -107,7 +107,7 @@ const LostFrame = () => {
 					setInitialFrames(newFrames)
 					setMsgSender((p) => [...p, `Ack ${frame.id} Received`])
 				}, (time += 2000))
-			}gi
+			}
 		})
 	}
 
